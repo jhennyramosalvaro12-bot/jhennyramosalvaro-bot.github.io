@@ -1,0 +1,40 @@
+<header>
+  <!-- TOP ROW: Logo + Search + Right buttons -->
+  <div class="header-top">
+    <div class="left-top">
+      <div class="brand">
+        <img src="images/22.png" alt="Perfume Paradise Logo">
+      </div>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search products..." onkeyup="searchProducts()">
+      </div>
+    </div>
+
+    <div class="right-top">
+      <a href="contactus.html" class="contact-link">Contact Us</a>
+      <div class="cart-btn" onclick="toggleCart()">
+        <span class="cart-icon">🛒</span>
+        <span id="cartCount" class="cart-count">0</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM ROW: Menu Buttons -->
+  <div class="header-bottom">
+    <a href="index.html"><button class="filter-btn" >Home</button></a> 
+
+    
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+  All Products ▼
+  <div id="sideMenu" class="side-menu">
+    <a href="allproducts.html">All Products</a>
+    <a href="perfume.html">Perfume</a>
+    <a href="cologne.html">Cologne</a>
+    <a href="bodyMist.html">Body Mist</a>
+  </div>
+</div>
+<button class="filter-btn" onclick="filterProducts('best')">Best Seller</button>
+    <button class="filter-btn" onclick="filterProducts('new')">New Arrival</button>
+  </div>
+</header>

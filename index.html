@@ -1,1 +1,82 @@
-# jhennyramosalvaro-bot.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Paradise</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+      
+     <div id="header-container"></div>
+    
+ <!-- HERO SECTION -->
+<section class="hero">
+  <div class="particles"></div>
+  <div class="hero-content">
+    <h1>Discover Your Signature Scent</h1>
+    <p>Luxury fragrances crafted to captivate your senses.</p>
+    <a href="allproducts.html"><button>Shop Now</button></a>
+  </div>
+</section>
+
+<!-- FEATURED PRODUCTS -->
+<section class="featured" id="featuredProducts">
+  <h2>Featured Collection</h2>
+
+  <div class="featured-grid">
+    <div class="featured-item">
+      <img src="images/1.jpg">
+      <h3>Aqua Drift</h3>
+      <p>Fresh, aquatic, and energizing.</p>
+    </div>
+
+    <div class="featured-item">
+      <img src="images/13.jpg">
+      <h3>Blush Bloom</h3>
+      <p>Soft floral sweetness with elegance.</p>
+    </div>
+
+    <div class="featured-item">
+      <img src="images/222.jpg" alt="Ocean Breeze">
+      <h3>Midnight Wood</h3>
+      <p>Deep woody warmth with bold intensity.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why-us">
+  <h2>Why Choose Perfume Paradise?</h2>
+  <div class="why-grid">
+    <div class="why-item">
+      <h3>🌸 Premium Ingredients</h3>
+      <p>Only the finest extracts and oils.</p>
+    </div>
+    <div class="why-item">
+      <h3>🚚 Fast Delivery</h3>
+      <p>Quick and secure nationwide shipping.</p>
+    </div>
+    <div class="why-item">
+      <h3>💖 Long Lasting</h3>
+      <p>Scents that stay with you all day.</p>
+    </div>
+  </div>
+</section>
+    
+    
+   
+    <!-- CART PANEL -->
+    <div class="cart-panel" id="cartPanel">
+      <button class="cart-close-btn" onclick="toggleCart()">✕</button>
+      <h2>Your Cart</h2>
+      <div id="cartItems"></div>
+      <h3>Total: $ <span id="totalPrice">0</span>
+      </h3>
+    </div>
+    <div id="tooltip" class="tooltip">Item added to cart!</div>
+    <script src="script.js"></script>
+  </body>
+</html>
